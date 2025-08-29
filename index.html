@@ -78,8 +78,365 @@
       </p>
     </section>
 
+    <main class="w-[95%] mx-auto">
+      <section
+        class="grid grid-cols-2 lg:grid-cols-12 sm:gap-2.5 lg:gap-6 mt-[48px] mb-10"
+      >
+        <!-- Cards -->
+        <div class="col-span-2 lg:col-span-9">
+          <!-- 1st 3 cards start -->
+          <div class="grid grid-rows-1 lg:grid-cols-3 gap-5 mb-[30px]">
+            <!-- 1st card -->
+            <div
+              class="col-span-1 p-[15px] rounded-2xl bg-white shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]"
+            >
+              <figure class="flex justify-between items-center mb-4">
+                <img
+                  class="p-1 lg:p-3 rounded-2xl w-[35px] lg:w-[50px] bg-[#ffe3e2]"
+                  src="assets/emergency.png"
+                  alt=""
+                />
+                <i class="heart fa-regular fa-heart hover:cursor-pointer"></i>
+              </figure>
+              <div class="mb-6">
+                <h1 class="survice-number font-bold">
+                  National Emergency Number
+                </h1>
+                <p class="font-normal text-[#8e8e93]">National Emergency</p>
+              </div>
+              <div class="mb-6">
+                <h3
+                  id="copy-id"
+                  class="number-btn text-[18px] lg:text-2xl font-medium mb-1"
+                >
+                  999
+                </h3>
+                <span class="px-4 py-1.5 bg-[#f2f2f2] rounded-2xl text-[13px]"
+                  >All</span
+                >
+              </div>
+              <div class="flex gap-2">
+                <button
+                  onclick="copyNum(this)"
+                  class="copy-btn flex items-center gap-1 hover:cursor-pointer px-16 lg:px-12 py-2 text-[12px] border border-[#D4D6D5] text-[#8e8e93] rounded-2xl"
+                >
+                  <i class="fa-copy fa-regular"></i> Copy
+                </button>
+                <button
+                  class="call-button flex items-center gap- hover:cursor-pointer px-16 lg:px-12 py-2 text-[12px] bg-[#00a63e] text-white rounded-2xl"
+                >
+                  <i class="fa-solid fa-phone pr-1"></i> Call
+                </button>
+              </div>
+            </div>
+
+            <!-- 2st card -->
+            <div
+              class="col-span-1 p-[15px] rounded-2xl bg-white shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]"
+            >
+              <figure class="flex justify-between items-center mb-4">
+                <img
+                  class="p-3 rounded-2xl w-[50px] bg-[#dfefff]"
+                  src="assets/police.png"
+                  alt=""
+                />
+                <i class="heart fa-regular fa-heart hover:cursor-pointer"></i>
+              </figure>
+              <div class="mb-6">
+                <h1 class="font-bold">Police Helpline Number</h1>
+                <p class="font-normal text-[#8e8e93]">Police</p>
+              </div>
+              <div class="mb-6">
+                <h3 class="text-2xl font-medium mb-1">999</h3>
+                <span class="px-4 py-1.5 bg-[#f2f2f2] rounded-2xl text-[13px]"
+                  >Police</span
+                >
+              </div>
+              <div class="flex gap-2">
+                <button
+                  onclick="copyNum(this)"
+                  class="copy-btn flex items-center gap-1 hover:cursor-pointer px-16 lg:px-12 py-2 text-[12px] border border-[#D4D6D5] text-[#8e8e93] rounded-2xl"
+                >
+                  <i class="fa-copy fa-regular"></i> Copy
+                </button>
+                <button
+                  class="call-button flex items-center gap- hover:cursor-pointer px-16 lg:px-12 py-2 text-[12px] bg-[#00a63e] text-white rounded-2xl"
+                >
+                  <i class="fa-solid fa-phone pr-1"></i> Call
+                </button>
+              </div>
+            </div>
+
+            <!-- 3rd card -->
+            <div
+              class="col-span-1 p-[12px] rounded-2xl bg-white shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]"
+            >
+              <figure class="flex justify-between items-center mb-4">
+                <img
+                  class="p-3 rounded-2xl w-[50px] bg-[#ffe3e2]"
+                  src="assets/fire-service.png"
+                  alt=""
+                />
+                <i class="heart fa-regular fa-heart hover:cursor-pointer"></i>
+              </figure>
+              <div class="mb-6">
+                <h1 class="font-bold">Fire Service Number</h1>
+                <p class="font-normal text-[#8e8e93]">Fire Service</p>
+              </div>
+              <div class="mb-6">
+                <h3 class="text-2xl font-medium mb-1">999</h3>
+                <span class="px-4 py-1.5 bg-[#f2f2f2] rounded-2xl text-[13px]"
+                  >Fire</span
+                >
+              </div>
+              <div class="flex gap-2">
+                <button
+                  onclick="copyNum(this)"
+                  class="copy-btn flex items-center gap-1 hover:cursor-pointer px-16 lg:px-12 py-2 text-[12px] border border-[#D4D6D5] text-[#8e8e93] rounded-2xl"
+                >
+                  <i class="fa-copy fa-regular"></i> Copy
+                </button>
+                <button
+                  class="call-button flex items-center gap- hover:cursor-pointer px-16 lg:px-12 py-2 text-[12px] bg-[#00a63e] text-white rounded-2xl"
+                >
+                  <i class="fa-solid fa-phone pr-1"></i> Call
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid grid-rows-1 lg:grid-cols-3 gap-5 mb-[30px]">
+            <!-- 4th card -->
+            <div
+              class="col-span-1 p-[15px] rounded-2xl bg-white shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]"
+            >
+              <figure class="flex justify-between items-center mb-4">
+                <img
+                  class="p-3 rounded-2xl w-[50px] bg-[#ffe3e2]"
+                  src="assets/ambulance.png"
+                  alt=""
+                />
+                <i class="heart fa-regular fa-heart hover:cursor-pointer"></i>
+              </figure>
+              <div class="mb-6">
+                <h1 class="font-bold">Ambulance Service</h1>
+                <p class="font-normal text-[#8e8e93]">Ambulance</p>
+              </div>
+              <div class="mb-6">
+                <h3 class="text-2xl font-medium mb-1">1994-999999</h3>
+                <span class="px-4 py-1.5 bg-[#f2f2f2] rounded-2xl text-[13px]"
+                  >Health</span
+                >
+              </div>
+              <div class="flex gap-2">
+                <button
+                  onclick="copyNum(this)"
+                  class="copy-btn flex items-center gap-1 hover:cursor-pointer px-16 lg:px-12 py-2 text-[12px] border border-[#D4D6D5] text-[#8e8e93] rounded-2xl"
+                >
+                  <i class="fa-copy fa-regular"></i> Copy
+                </button>
+                <button
+                  class="call-button flex items-center gap- hover:cursor-pointer px-16 lg:px-12 py-2 text-[12px] bg-[#00a63e] text-white rounded-2xl"
+                >
+                  <i class="fa-solid fa-phone pr-1"></i> Call
+                </button>
+              </div>
+            </div>
+
+            <!-- 5th card -->
+            <div
+              class="col-span-1 p-[15px] rounded-2xl bg-white shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]"
+            >
+              <figure class="flex justify-between items-center mb-4">
+                <img
+                  class="p-3 rounded-2xl w-[50px] bg-[#ffe3e2]"
+                  src="assets/emergency.png"
+                  alt=""
+                />
+                <i class="heart fa-regular fa-heart hover:cursor-pointer"></i>
+              </figure>
+              <div class="mb-6">
+                <h1 class="font-bold">Women & Child Helpline</h1>
+                <p class="font-normal text-[#8e8e93]">Women & Child Helpline</p>
+              </div>
+              <div class="mb-6">
+                <h3 class="text-2xl font-medium mb-1">109</h3>
+                <span class="px-4 py-1.5 bg-[#f2f2f2] rounded-2xl text-[13px]"
+                  >Help</span
+                >
+              </div>
+              <div class="flex gap-2">
+                <button
+                  onclick="copyNum(this)"
+                  class="copy-btn flex items-center gap-1 hover:cursor-pointer px-16 lg:px-12 py-2 text-[12px] border border-[#D4D6D5] text-[#8e8e93] rounded-2xl"
+                >
+                  <i class="fa-copy fa-regular"></i> Copy
+                </button>
+                <button
+                  class="call-button flex items-center gap- hover:cursor-pointer px-16 lg:px-12 py-2 text-[12px] bg-[#00a63e] text-white rounded-2xl"
+                >
+                  <i class="fa-solid fa-phone pr-1"></i> Call
+                </button>
+              </div>
+            </div>
+
+            <!-- 6th card -->
+            <div
+              class="col-span-1 p-[15px] rounded-2xl bg-white shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]"
+            >
+              <figure class="flex justify-between items-center mb-4">
+                <img
+                  class="p-3 rounded-2xl w-[50px] bg-[#ffe3e2]"
+                  src="assets/emergency.png"
+                  alt=""
+                />
+                <i class="heart fa-regular fa-heart hover:cursor-pointer"></i>
+              </figure>
+              <div class="mb-6">
+                <h1 class="font-bold">Anti-Corruption Helpline</h1>
+                <p class="font-normal text-[#8e8e93]">Anti-Corruption</p>
+              </div>
+              <div class="mb-6">
+                <h3 class="text-2xl font-medium mb-1">106</h3>
+                <span class="px-4 py-1.5 bg-[#f2f2f2] rounded-2xl text-[13px]"
+                  >Govt</span
+                >
+              </div>
+              <div class="flex gap-2">
+                <button
+                  onclick="copyNum(this)"
+                  class="copy-btn flex items-center gap-1 hover:cursor-pointer px-16 lg:px-12 py-2 text-[12px] border border-[#D4D6D5] text-[#8e8e93] rounded-2xl"
+                >
+                  <i class="fa-copy fa-regular"></i> Copy
+                </button>
+                <button
+                  class="call-button flex items-center gap- hover:cursor-pointer px-16 lg:px-12 py-2 text-[12px] bg-[#00a63e] text-white rounded-2xl"
+                >
+                  <i class="fa-solid fa-phone pr-1"></i> Call
+                </button>
+              </div>
+            </div>
+          </div>
+
+          -->
+          <div class="grid grid-rows-1 lg:grid-cols-3 gap-5 mb-[30px]">
+            <!-- 7th card -->
+            <div
+              class="col-span-1 p-[15px] rounded-2xl bg-white shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]"
+            >
+              <figure class="flex justify-between items-center mb-4">
+                <img
+                  class="p-3 rounded-2xl w-[50px] bg-[#ffe3e2]"
+                  src="assets/emergency.png"
+                  alt=""
+                />
+                <i class="heart fa-regular fa-heart hover:cursor-pointer"></i>
+              </figure>
+              <div class="mb-6">
+                <h1 class="font-bold">Electricity Helpline</h1>
+                <p class="font-normal text-[#8e8e93]">Electricity Outage</p>
+              </div>
+              <div class="mb-6">
+                <h3 class="text-2xl font-medium mb-1">16216</h3>
+                <span class="px-4 py-1.5 bg-[#f2f2f2] rounded-2xl text-[13px]"
+                  >Electricity</span
+                >
+              </div>
+              <div class="flex gap-2">
+                <button
+                  onclick="copyNum(this)"
+                  class="copy-btn flex items-center gap-1 hover:cursor-pointer px-16 lg:px-12 py-2 text-[12px] border border-[#D4D6D5] text-[#8e8e93] rounded-2xl"
+                >
+                  <i class="fa-copy fa-regular"></i> Copy
+                </button>
+                <button
+                  class="call-button flex items-center gap- hover:cursor-pointer px-16 lg:px-12 py-2 text-[12px] bg-[#00a63e] text-white rounded-2xl"
+                >
+                  <i class="fa-solid fa-phone pr-1"></i> Call
+                </button>
+              </div>
+            </div>
+
+            <!-- 8th card -->
+            <div
+              class="col-span-1 p-[15px] rounded-2xl bg-white shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]"
+            >
+              <figure class="flex justify-between items-center mb-4">
+                <img
+                  class="p-3 rounded-2xl w-[50px] bg-pink-200"
+                  src="assets/brac.png"
+                  alt=""
+                />
+                <i class="heart fa-regular fa-heart hover:cursor-pointer"></i>
+              </figure>
+              <div class="mb-6">
+                <h1 class="font-bold">Brac Helpline</h1>
+                <p class="font-normal text-[#8e8e93]">Brac</p>
+              </div>
+              <div class="mb-6">
+                <h3 class="text-2xl font-medium mb-1">16445</h3>
+                <span class="px-4 py-1.5 bg-[#f2f2f2] rounded-2xl text-[13px]"
+                  >NGO</span
+                >
+              </div>
+              <div class="flex gap-2">
+                <button
+                  onclick="copyNum(this)"
+                  class="copy-btn flex items-center gap-1 hover:cursor-pointer px-16 lg:px-12 py-2 text-[12px] border border-[#D4D6D5] text-[#8e8e93] rounded-2xl"
+                >
+                  <i class="fa-copy fa-regular"></i> Copy
+                </button>
+                <button
+                  class="call-button flex items-center gap- hover:cursor-pointer px-16 lg:px-12 py-2 text-[12px] bg-[#00a63e] text-white rounded-2xl"
+                >
+                  <i class="fa-solid fa-phone pr-1"></i> Call
+                </button>
+              </div>
+            </div>
+
+            <!-- 9th card -->
+            <div
+              class="col-span-1 p-[15px] rounded-2xl bg-white shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]"
+            >
+              <figure class="flex justify-between items-center mb-4">
+                <img
+                  class="p-3 rounded-2xl w-[50px] bg-[#c1b670]"
+                  src="assets/Bangladesh-Railway.png"
+                  alt=""
+                />
+                <i class="heart fa-regular fa-heart hover:cursor-pointer"></i>
+              </figure>
+              <div class="mb-6">
+                <h1 class="font-bold">Bangladesh Railway Helpline</h1>
+                <p class="font-normal text-[#8e8e93]">Bangladesh Railway</p>
+              </div>
+              <div class="mb-6">
+                <h3 class="text-2xl font-medium mb-1">163</h3>
+                <span class="px-4 py-1.5 bg-[#f2f2f2] rounded-2xl text-[13px]"
+                  >Travel</span
+                >
+              </div>
+              <div class="flex gap-2">
+                <button
+                  onclick="copyNum(this)"
+                  class="copy-btn flex items-center gap-1 hover:cursor-pointer px-16 lg:px-12 py-2 text-[12px] border border-[#D4D6D5] text-[#8e8e93] rounded-2xl"
+                >
+                  <i class="fa-copy fa-regular"></i> Copy
+                </button>
+                <button
+                  class="call-button flex items-center gap- hover:cursor-pointer px-16 lg:px-12 py-2 text-[12px] bg-[#00a63e] text-white rounded-2xl"
+                >
+                  <i class="fa-solid fa-phone pr-1"></i> Call
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card history -->
+      </section>
+    </main>
+
     <script src="index.js"></script>
-    <script src="utils.js"></script>
-    <script src="test.js"></script>
   </body>
 </html>
