@@ -17,7 +17,51 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body class="bg-[#f5fff6]">
+    <!-- header -->
+    <header>
+      <nav class="flex justify-between px-3 lg:px-14 mt-2 lg:mt-4 mb-2 lg:mb-4">
+        <!-- logo and name  -->
+        <div class="flex items-center gap-2.5">
+          <figure class="w-[30px] lg:w-[50px]">
+            <img src="assets/logo.png" alt="" />
+          </figure>
+          <h1 class="text-[#006747] text-[12px] lg:text-[15px] font-bold">
+            Emergency <br />
+            Service
+          </h1>
+        </div>
+
+        <!-- heart, coin nad copy section -->
+        <section class="flex items-center gap-1 lg:gap-5">
+          <!-- heart -->
+          <div
+            class="flex justify-center items-center bg-[#41ff6b1a] px-3 lg:px-6 py-1.5 lg:py-2.5 rounded-3xl gap-1"
+          >
+            <span id="count-heart" class="font-bold">0</span>
+            <img class="w-[18px] lg:w-[25px]" src="assets/heart.png" alt="" />
+          </div>
+
+          <!-- coin -->
+          <div
+            class="flex justify-center items-center bg-[#41ff6b1a] px-3 lg:px-6 py-1.5 lg:py-2.5 rounded-3xl gap-1"
+          >
+            <span id="coin" class="font-bold">100</span>
+            <img class="w-[18px] lg:w-[25px]" src="assets/coin.png" alt="" />
+          </div>
+
+          <!-- copy -->
+          <div
+            class="flex justify-center items-center bg-[#00a63e] px-3 lg:px-6 py-1.5 lg:py-2.5 rounded-3xl"
+          >
+            <h1 class="text-white font-medium">
+              <span id="count-copy">0</span> <span>Copy</span>
+            </h1>
+          </div>
+        </section>
+      </nav>
+    </header>
+
     <script src="index.js"></script>
     <script src="utils.js"></script>
     <script src="test.js"></script>
